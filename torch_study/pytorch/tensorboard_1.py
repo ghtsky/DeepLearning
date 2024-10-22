@@ -1,6 +1,6 @@
 from torch.utils.tensorboard import SummaryWriter
 
-writer = SummaryWriter("logs")
+writer = SummaryWriter("../logs")
 
 # writer.add_scalar()：在summary中添加标量数据
 

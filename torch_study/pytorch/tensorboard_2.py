@@ -1,8 +1,8 @@
 from torch.utils.tensorboard import SummaryWriter
 
-writer = SummaryWriter("logs")
+writer = SummaryWriter("../logs")
 
-img_path = "data/hymenoptera_data/train/ants/0013035.jpg"
+img_path = "../data/hymenoptera_data/train/ants/0013035.jpg"
 
 ### 使用OPENCV读取图片
 # todo:使用OPENCV读取图片

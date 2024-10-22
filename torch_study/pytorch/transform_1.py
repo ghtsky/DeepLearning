@@ -3,7 +3,7 @@ from torchvision import transforms
 
 # toTenor
 
-img_path = "data/hymenoptera_data/train/ants/0013035.jpg"
+img_path = "../data/hymenoptera_data/train/ants/0013035.jpg"
 
 img_PIL = PIL.Image.open(img_path)
 
