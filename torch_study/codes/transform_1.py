@@ -1,6 +1,8 @@
 import PIL.Image
 import cv2
+from torch.utils.tensorboard import SummaryWriter
 from torchvision import transforms
+
 
 # toTenor
 
@@ -17,3 +19,10 @@ tensor_img = tensor_trans(img_PIL)
 img_cv = cv2.imread(img_path)
 
 tensor_img2 = tensor_trans(img_cv)
+
+writer = SummaryWriter(log_dir='./logs')
+
+writer.add_image("TensorImg", tensor_img, global_step=1)
+
+writer.close()
+
