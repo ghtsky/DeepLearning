@@ -163,3 +163,4 @@ cython_debug/
 
 /torch_study/data/
 /torch_study/logs
+/torch_study/codes/logs
